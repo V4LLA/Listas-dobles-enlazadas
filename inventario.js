@@ -33,7 +33,7 @@ class Inventario{
     listar(){
         let t= this.inicio;
         let res='';
-        if (t!= null){
+        while (t!= null){
             res += t.infoTabla() 
             t= t.siguiente;
         }
